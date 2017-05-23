@@ -24,7 +24,7 @@ Name "Borg Backup ${VERSION}"
 OutFile "Borg Backup Installer v${VERSION}.exe"
 
 ; The default installation directory
-InstallDir "C:\Program Files\Borg"
+InstallDir "$PROGRAMFILES\Borg"
 
 ; Registry key to check for directory (so if you install again, it will
 ; overwrite the old one automatically)
