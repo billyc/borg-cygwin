@@ -5,4 +5,5 @@
 #    see https://cygwin.com/cygwin-ug-net/using.html#mount-table
 
 # BORG INSTALLER: moved drive mount point from /cygdrive to /
-none / cygdrive binary,posix=0,user 0 0
+none /    cygdrive binary,posix=0,user  0 0
+none /tmp usertemp binary,posix=0,noacl 0 0
